@@ -1,35 +1,58 @@
 body {
     background-color: hsl(212, 45%, 89%);
-    font-family: 'Raleway', sans-serif;
-        
-    display: flex;
+    font-family: 'Raleway', sans-serif;  
+    margin: 0;
+    height: 100vh
+
+    /* display: flex; 
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content:space-around;
+    align-items: center; */
     
 
 }
 
 section {
+    margin: auto;
+    margin-top: 2.5%; 
     display: flex;
-    width: 345px;
+  align-items: center;
+  justify-content: center;
+  width: 375px;
+
+    /* flex-direction: column;
+    align-items: center;  */
+}
+.box {
+   
+    display: flex;
+    flex-direction: column;
     background-color: white;
     padding: 10px;
     border-radius: 30px;
-    flex-direction: column;
-}
-
-.attribution {
-    display: block;
-}
-.qrCode {
-    display: :flex;
+    
+ 
+   
+  }
+  
+  .box div {
+  
+    display: :flex; 
     justify-content: center;
+    align-items: center;
+   
+  
+  }
+
+.qrCode {
+    display: :flex; 
+    justify-content: center;
+    align-items: center;
 }
 .qrCode img {
     max-width: 100%;
     border-radius: 30px;
-  
+background-color: blueviolet;  
 }
 h1{
     color: hsl(218, 44%, 22%);
@@ -44,3 +67,25 @@ p {
 .content {
     padding: 5px;
 }
+
+.attribution {
+  margin-top: 20px;
+    /* display: flex;
+    align-items: center;
+    justify-items: center; */
+    font-size: 11px;
+    text-align: center;
+    padding: 5px;
+    background-color: hsl(218, 44%, 22%);
+    color: white;
+  }
+
+  .attribution a:visited {
+    color: white;
+  }
+  .attribution a:hover {
+    color: white;
+  }
+  .attribution a {
+    color: white;
+  }
